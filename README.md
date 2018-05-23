@@ -8,7 +8,11 @@
 
 ## Training
 
-Training supprots CIFAR-10/100, SVHN, Fashion-MNIST
+Training supprots CIFAR-10/100, SVHN, [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)
+
+Download SVHN:
+    
+    ./get_svhn.sh
 
 A example of RNDB-50-C for CIFAR-10:
 
@@ -30,3 +34,14 @@ A example of WRNDB-50-4-C for CIFAR-10:
 
     python train_RNDB.py --data-type='cifar-10' --block-type='C' --depth=50 --widen-factor=4 --lr=0.1
 
+![wc10](https://github.com/TianzhongSong/Residual-Networks-with-Dense-Block/blob/master/imgs/wc10.jpg)
+
+![wc100](https://github.com/TianzhongSong/Residual-Networks-with-Dense-Block/blob/master/imgs/wc100.jpg)
+
+## Reference
+
+[keras-resnet](https://github.com/raghakot/keras-resnet)
+
+[Densenet](https://github.com/liuzhuang13/DenseNet)
+
+[wide-residual-networks](https://github.com/szagoruyko/wide-residual-networks)
