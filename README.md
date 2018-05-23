@@ -30,9 +30,9 @@ A example of RNDB-50-C for CIFAR-10:
 
 ## Wide Residual Networks with Dense Block
 
-A example of WRNDB-50-4-C for CIFAR-10:
+A example of WRNDB-26-4-C for CIFAR-10:
 
-    python train_RNDB.py --data-type='cifar-10' --block-type='C' --depth=50 --widen-factor=4 --lr=0.1
+    python train_RNDB.py --data-type='cifar-10' --block-type='C' --depth=26 --widen-factor=4 --lr=0.1
 
 ![wc10](https://github.com/TianzhongSong/Residual-Networks-with-Dense-Block/blob/master/imgs/wc10.jpg)
 
