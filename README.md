@@ -8,7 +8,7 @@
 
 ## Training
 
-Training supprots CIFAR-10/100, SVHN, [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)
+Training supports CIFAR-10/100, SVHN, [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)
 
 Download SVHN:
     
