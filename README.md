@@ -14,7 +14,7 @@ Download SVHN:
     
     ./get_svhn.sh
 
-A example of RNDB-50-C for CIFAR-10:
+An example of RNDB-50-C for CIFAR-10:
 
     python train_RNDB.py --data-type='cifar-10' --block-type='C' --depth=50 --lr=0.1
 
